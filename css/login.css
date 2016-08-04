@@ -1,0 +1,115 @@
+/*登录界面的顶部条和搜索部分	s*/
+.topBar{
+	width: 100%;
+	position: static;
+	background-color: #b1b1b1;
+}
+
+/*顶部时间条部分s*/
+.l-top{
+	position: fixed;
+	width: 100%;
+}
+.l-top .loginTime img{
+	width: 100%;
+}
+.l-top  .lo-header{
+	width: 100%;
+	background-color: #b1b1b1;
+	padding-right: 25px;
+	padding-left: 23px;
+	height: 55px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.l-top  .lo-header img{
+	width: 50%;
+	float: left;
+}
+.l-top  .lo-header li{
+	flex: 1;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #fff;
+}
+.l-top  .lo-header li a{
+	color: #fff;
+}
+.content{
+	width: 100%;
+	height:660px;
+	background-color: #eee;
+}
+/*顶部时间条部分e*/
+/*登录界面的顶部条和搜索部分	e*/
+
+
+/*登入部分	s*/
+.content .LoginLogo{
+	text-align: center;
+}
+.LoginLogo img{
+	width: 22%;
+	margin-top: 52px;
+	margin-bottom: 36px;
+}
+.username{
+	height: 216px;
+	display: flex;
+	flex-direction:column;
+	justify-content: space-between;
+	align-items: center;
+}
+.username .inp{
+	display: block;
+	width: 81%;
+	height: 45px;
+	background-color: #fff;
+	border-radius: 25px;
+	padding-left: 10px;
+	font-size: 14px;
+}
+.username .btn{
+	display: block;
+	width: 81%;
+	height: 45px;
+	background-color: #fff;
+	border-radius: 25px;
+	background-color: #505050;
+	color: #fff;
+	font-size: 14px;
+}
+.content div:last-child p{
+	text-align: center;
+	margin-top: 19px;
+	text-decoration: underline;
+}
+.content div:last-child ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	margin-top: 30px ;
+	margin-bottom: 55px;
+}
+.content div:last-child li img{
+	width: 50%;
+}
+/*登入部分	e*/
+
+/*第三方登录*/
+.guessLoveFont{
+	text-align: center;
+	line-height: 38px;
+	margin-top: 20px;
+}
+.guessLoveFont span{
+	display: inline-block;
+	width:30%;
+	border-top: 1px solid #ccc;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-right: 10px;
+}

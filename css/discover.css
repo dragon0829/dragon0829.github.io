@@ -1,0 +1,62 @@
+.topBar div:last-child{
+	width: 100%;
+}
+.search .discover{
+	line-height: 21px;
+	width: 41%;	
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 15px;
+	padding: 2px;
+	display: flex;
+}
+.search .discover-link{
+	width: 33.33%;
+	background-color: #8c8c8c;
+	border-radius:15px ;
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+}
+.dis_cont{
+	width: 100%;
+	background-color: #fff;
+}
+.dis_cont a{
+	display: inline-block;
+}
+.dis_cont a img{
+	width: 100%;
+}
+.dis_cont p{
+	margin-top: 9px;
+	margin-left: 6%;
+	width: 71%;
+	line-height: 18px;
+}
+.circle {
+	margin-left: 29px;
+	margin-right: 24px;
+	height: 48px;
+	display: flex;
+	align-items: center;
+}
+.circle a img{  
+	width: 25px;
+	height: 25px;
+	border-radius: 20px;
+	margin-right: 11px;
+	text-align: center;
+}
+.circle a{  
+	display: flex;
+	flex: 1;
+}
+.circle a:nth-child(4){  
+	flex: 2;
+	justify-content: flex-end;
+}
+.circle a:nth-child(5){  
+	flex: 2;
+	justify-content: flex-end;
+}
